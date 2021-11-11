@@ -1,6 +1,7 @@
 guest_list = ['mark', 'nicole', 'teddy']
 
 print("=== 3.4 - invite each guest to dinner ===")
+print(f"We are inviting {len(guest_list)} guests to dinner.")
 print(f"Hello {guest_list[0].title()}, would you like to come to dinner?")
 print(f"Hello {guest_list[1].title()}, would you like to come to dinner?")
 print(f"Hello {guest_list[2].title()}, would you like to come to dinner?")
