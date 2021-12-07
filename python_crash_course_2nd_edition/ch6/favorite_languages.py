@@ -43,3 +43,16 @@ for language in set(favorite_languages.values()):
 print("use sorted(set()) to get a sorted list and remove duplicates")
 for language in sorted(set(favorite_languages.values())):
     print(language.title())
+
+print("\npg 109")
+favorite_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+}
+
+for name, languages in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
