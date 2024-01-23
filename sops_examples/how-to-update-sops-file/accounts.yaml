@@ -1,0 +1,17 @@
+accounts:
+  - name: sa-a
+    login: sa-a
+    email: sa-a@system.nomail
+    password: something
+    tokens:
+      - name: 'sa-a-user_token'
+        type: 'user_token'
+        token: ''
+  - name: sa-b
+    login: sa-b
+    email: sa-b@system.nomail
+    password: somethingElse
+    tokens:
+      - name: 'sa-b-user_token'
+        type: 'user_token'
+        token: ''

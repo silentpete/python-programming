@@ -1,0 +1,9 @@
+accounts:
+  - name: sa-user-a
+    login: sa-user-a
+    email: sa-user-a@system.nomail
+    password: something
+  - name: sa-user-b
+    login: sa-user-b
+    email: sa-user-b@system.nomail
+    password: somethingElse
