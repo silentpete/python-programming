@@ -1,0 +1,9 @@
+users:
+  - login: "david"
+    name: "david"
+    email: "david@sonarqube.nomail"
+    password: "password"
+  - login: "peter"
+    name: "peter"
+    email: "peter@sonarqube.nomail"
+    password: "password"
