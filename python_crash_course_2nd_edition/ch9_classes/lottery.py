@@ -8,7 +8,7 @@ this_weeks_lottery = random.sample(lottery_list, 4)
 print(f"Any lottery ticket matching these 4 letters or numbers wins a prize: {this_weeks_lottery}")
 
 print('How many times would I have to play to win?')
-my_ticket = [8,4,2,"b"]
+my_ticket = [3, 6, "e", "b"]
 
 won = False
 count = 0
